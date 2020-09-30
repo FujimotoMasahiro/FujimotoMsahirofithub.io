@@ -1,3 +1,32 @@
 .title {
+    position: relative;
+
     color: #02ccba;
+}
+
+a {
+    position: relative;
+}
+
+body .background-img {
+    /*位置の設定*/
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    /*背景画像の設定*/
+    background: url(top.png);
+    background-size: cover;
+
+    /*透過の設定*/
+    opacity: 0.3;
+}
+
+body p{
+
+    /*位置の設定 - 上下中央寄せ*/
+    position: relative;
+
 }
